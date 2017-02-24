@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+<head>
+<title>absolute和fixed的区别</title>
+<link rel="stylesheet" href="login_css.css" type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
+<meta charset="UTF-8">
+
+
+
+<style>
+ .html,body{
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+         }
+ .CR{
+
+clear: both;
+
+     }        
+.header{
+    width:100%;height:100px;
+    padding-bottom:0;
+    background-color: #68cdd5;
+       }
+.guanbi{
+      position:absolute;
+      top:35px;right:30%;left:3%;
+      font-size:1.5rem;
+
+       }
+.denglu{
+      position:absolute;
+      top:35px;right:30%;left:43%;bottom:30%;
+      font-size:1.5rem;
+	   }	 
+.zhuce{ 
+
+    position:absolute;
+      top:35px;right:3%;bottom:30%;
+      font-size:1.5rem;
+	   }
+.yemian{
+     padding-bottom: 100%;
+     background-color:#CCCCCC;
+       }
+.zhanghao{
+     background-color:#FFFFFF;
+     width:100%;
+     height:80px;
+     margin-top:5px;
+     }  
+         
+.zhanghao img{
+           margin-top:21px;
+         height: 40px;
+         margin-left:12px;
+ 
+             }  
+.zhanghao input{ 
+color:red;
+font-family: "microsoft yahei";
+margin-top:28px;
+font-size:1.5rem;
+margin-left:50px;
+width:60%;
+outline:none;
+border:hidden;
+ }  
+.mima{
+	 background-color:#FFFFFF;
+	 width:100%;
+	 height:80px;
+     margin-top:5px;
+     }		    
+.mima img{
+         margin-top:21px;
+         height: 40px;
+         margin-left:12px;
+ 
+     } 
+ .mima input{
+color:red;
+font-family: "microsoft yahei";
+margin-top:28px;
+font-size:1.5rem;
+margin-left:50px;
+width:60%;
+outline:none;
+border:hidden;
+ }      
+.text {
+   width:80%;
+    height:40%;
+    margin-left:10%;
+    padding:2%;
+    font-size:1.8rem;
+        } 
+
+
+.denglu2{
+   
+    background-color:blue;
+    margin-top:15px;
+    height:120px;
+    text-align:center;
+        }
+
+.denglu2 button{ 
+    float:left;margin-left:35%;
+    height:60px; 
+    width:125px;
+    margin-top:29px;
+    background-color:blue;
+               }
+.daxiao{
+    color:#FFFFFF;
+    font-size:1.8rem;
+    margin-top:10px;
+
+       }
+.wangji{
+ 
+ float:right;margin-right:1%; 
+ font-size:1.6rem; 
+ text-decoration: underline;
+
+       }           
+</style>
+</head>
+<body>
+<div class="yemian">
+  <div class="header">
+    <div class="guanbi">关闭</div>
+    <div class="denglu">登录</div>
+    <div class="zhuce">注册</div>
+  </div>
+       <div class="zhanghao">
+         <img src="images/iphone.png">
+           
+     <input class="text" placeholder="请输入手机号">
+       
+   </div>
+   <div class="mima">
+      <img src="images/locked-2.png"> 
+
+      <input class="text" placeholder="请输入密码">
+   </div> 
+
+     <div class="denglu2">
+        <button type="denglu3"><h1 class="daxiao">登&nbsp;&nbsp;录</h1></button> 
+     </div>
+      <div class="wangji">忘记密码?
+      </div>
+ </div> 
+      </div>
+        <div class="CR"></div>
+      </div>
+</body>
+</html>
+    position: absolute;
+    
+    background-color:blue;
+    top:23%;
+    left:25%;
+    margin:15%;
+    text-align:center;
+
+ 
+
+
+.denglu3{
+     position: absolute;
+     left:38%;
+     font-size:4rem;
+     line-height:150%; 
+        }
+
+
+position:fixed;
